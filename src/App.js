@@ -1,8 +1,79 @@
 import { useState } from "react";
 import "./app.css";
+import Trivia from "./components/Trivia";
 
 function App() {
-  const [questionNumber, setQuestionNumber] = useState(4)
+  const [questionNumber, setQuestionNumber] = useState(1);
+  const [timeOut, setTimeOut] = useState(false);
+
+  const data = [
+    {
+      id: 1,
+      question: "Rolex is a company that specilizes in what type of product?",
+      answers: [
+        {
+          text: "Phone",
+          correct: false,
+        },
+        {
+          text: "Whatch",
+          correct: true,
+        },
+        {
+          text: "Shoe",
+          correct: false,
+        },
+        {
+          text: "Car",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 2,
+      question: "Who is current captain of Indian men cricket team?",
+      answers: [
+        {
+          text: "MS Dhoni",
+          correct: false,
+        },
+        {
+          text: "Virat Kohli",
+          correct: false,
+        },
+        {
+          text: "Rohit Sharma",
+          correct: true,
+        },
+        {
+          text: "KL Rahul",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 1,
+      question: "Which company made ReactJS?",
+      answers: [
+        {
+          text: "Facebook",
+          correct: true,
+        },
+        {
+          text: "Google",
+          correct: false,
+        },
+        {
+          text: "Adobe",
+          correct: false,
+        },
+        {
+          text: "Microsoft",
+          correct: false,
+        },
+      ],
+    },
+  ];
   const moneyPyramid = [
     { id: 1, amount: "$ 100" },
     { id: 2, amount: "$ 200" },
@@ -23,11 +94,29 @@ function App() {
 
   return (
     <div className="app">
-      <div className="main">quiz</div>
+      <div className="main">
+        <div className="top">
+          <div className="timer">30</div>
+        </div>
+        <div className="bottom">
+          <Trivia
+            data={data}
+            setTimeOut={setTimeOut}
+            questionNumber={questionNumber}
+            setQuestionNumber={setQuestionNumber}
+          />
+        </div>
+      </div>
       <div className="pyramid">
         <ul className="moneyList">
           {moneyPyramid.map((m) => (
-            <li className={questionNumber === m.id ? "moneyListItem active" : "moneyListItem"}>
+            <li
+              className={
+                questionNumber === m.id
+                  ? "moneyListItem active"
+                  : "moneyListItem"
+              }
+            >
               <span className="moneyListItemNumber">{m.id}</span>
               <span className="moneyListItemAmount">{m.amount}</span>
             </li>

@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# KON BANEGA CROREPATI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### A website that can help to check your general knowledge
 
-## Available Scripts
+![kbc](https://user-images.githubusercontent.com/78258094/200169936-e792d238-78e5-4336-a627-8c04a75de539.JPG)
 
-In the project directory, you can run:
+This project has these features - 
+* MCQ - select a correct answer from group of answers
+* Automatic winning price calculation
+* Registration form which starts the game
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies used: ReactJS, CSS, HTML
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Live here: https://kon-banega-crorepati.netlify.app/
 
-### `npm test`
+## How to install this ReactJS project?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fork this repository, It will make a copy of this repository in your github account.
+2. Clone your fork, use command - `git clone https://github.com/<your username>/modern_portfolio.git`.
+3. Install the required packeges to run this project, use this command - `npm install`.
+4. Your good to go, you can run this project by using this command - `npm start`.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to tweak this project for your own uses
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you want to use this project for your own use, I would encourage you to clone this project (follow above steps) and rename this project to use your own purpose. It is simple project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Find a bug?
 
-### `npm run eject`
+If you found an issue or would like to submit an approvement to this project, please submit an issue using the issue tab above. If you want to submit a PR with a fix or reference the issue you created!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Known issues (work in progress)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Reponsive to mobile screens.
+2. Celebration animation and restart option after winning the game.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

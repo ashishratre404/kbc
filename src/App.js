@@ -58,7 +58,7 @@ function App() {
       ],
     },
     {
-      id: 1,
+      id: 3,
       question: "Which company made ReactJS?",
       answers: [
         {
@@ -75,6 +75,270 @@ function App() {
         },
         {
           text: "Microsoft",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 4,
+      question: "Who invented Mobile phone?",
+      answers: [
+        {
+          text: "Graham Bell",
+          correct: false,
+        },
+        {
+          text: "Edison",
+          correct: false,
+        },
+        {
+          text: "Larry Page",
+          correct: false,
+        },
+        {
+          text: "Martin Cooper",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 5,
+      question: "Which is the longest River in the world?",
+      answers: [
+        {
+          text: "Ganges",
+          correct: false,
+        },
+        {
+          text: "Amazon",
+          correct: false,
+        },
+        {
+          text: "Thames",
+          correct: false,
+        },
+        {
+          text: "Nile",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 6,
+      question: "Who was the first woman to go to space?",
+      answers: [
+        {
+          text: "Valentina Tereshkova",
+          correct: true,
+        },
+        {
+          text: "Sally Ride",
+          correct: false,
+        },
+        {
+          text: "Liu Yang",
+          correct: false,
+        },
+        {
+          text: "Sunita Williams",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 7,
+      question: "Apart from Venus, which planet rotates from east to west?",
+      answers: [
+        {
+          text: "Jupiter",
+          correct: false,
+        },
+        {
+          text: "Uranus",
+          correct: true,
+        },
+        {
+          text: "Earth",
+          correct: false,
+        },
+        {
+          text: "Mars",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 8,
+      question: "Name the highest mountain in the Alps.",
+      answers: [
+        {
+          text: "Matterhorn",
+          correct: false,
+        },
+        {
+          text: "Mont Blanc",
+          correct: true,
+        },
+        {
+          text: "Jungfrau",
+          correct: false,
+        },
+        {
+          text: "Monte Cervino",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 9,
+      question: "What is the groove under the nose called?",
+      answers: [
+        {
+          text: "Philtrum",
+          correct: true,
+        },
+        {
+          text: "Rayon",
+          correct: false,
+        },
+        {
+          text: "Petersham",
+          correct: false,
+        },
+        {
+          text: "Janeiro",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 10,
+      question: "What value is the Roman numeral XL?",
+      answers: [
+        {
+          text: "510",
+          correct: false,
+        },
+        {
+          text: "90",
+          correct: false,
+        },
+        {
+          text: "40",
+          correct: true,
+        },
+        {
+          text: "490",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 11,
+      question: "What is a group of lions called?",
+      answers: [
+        {
+          text: "Pride",
+          correct: true,
+        },
+        {
+          text: "Avarice",
+          correct: false,
+        },
+        {
+          text: "Sloth",
+          correct: false,
+        },
+        {
+          text: "Envy",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 12,
+      question: "Which state is called  rice bowl of India?",
+      answers: [
+        {
+          text: "Maharashtra",
+          correct: false,
+        },
+        {
+          text: "Uttar Pradesh",
+          correct: false,
+        },
+        {
+          text: "Asam",
+          correct: false,
+        },
+        {
+          text: "Chhattisgarh",
+          correct: true,
+        },
+      ],
+    },
+    {
+      id: 13,
+      question: "What do you call a system of serving when a meal, consisting of several dishes is set out and guests serve themselves?",
+      answers: [
+        {
+          text: "Buffet",
+          correct: true,
+        },
+        {
+          text: "A la carte",
+          correct: false,
+        },
+        {
+          text: "Menu",
+          correct: false,
+        },
+        {
+          text: "All",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 14,
+      question: "What was defined as ‘three grains of barley, dry and round, placed end to end lengthwise’?",
+      answers: [
+        {
+          text: "Centimeter",
+          correct: false,
+        },
+        {
+          text: "Meter",
+          correct: false,
+        },
+        {
+          text: "Inch",
+          correct: true,
+        },
+        {
+          text: "Millimeter",
+          correct: false,
+        },
+      ],
+    },
+    {
+      id: 15,
+      question: "Which is the largest internal organ in the human body?",
+      answers: [
+        {
+          text: "Liver",
+          correct: true,
+        },
+        {
+          text: "Heart",
+          correct: false,
+        },
+        {
+          text: "Lung",
+          correct: false,
+        },
+        {
+          text: "Kidney",
           correct: false,
         },
       ],

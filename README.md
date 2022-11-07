@@ -32,7 +32,7 @@ If you found an issue or would like to submit an approvement to this project, pl
 
 ## Known issues (work in progress)
 
-1. Reponsive to mobile screens.
+1. Responsive to mobile screens.
 2. Celebration animation and restart option after winning the game.
 
 
